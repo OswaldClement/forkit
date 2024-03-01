@@ -1,0 +1,62 @@
+name: forkit
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  flutter_rating_bar: ^4.0.1
+  pin_code_fields: ^8.0.1
+  country_pickers: ^2.0.0
+  flutter_svg_provider: ^1.0.7
+  intl: ^0.18.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Abel
+      fonts: 
+        - asset: assets/fonts/AbelRegular.ttf
+          weight: 400
+    - family: ABeeZee
+      fonts: 
+        - asset: assets/fonts/ABeeZeeRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterMedium.ttf
+          weight: 500
+        - asset: assets/fonts/InterExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+        - asset: assets/fonts/InterBlack.ttf
+          weight: 900
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+    - family: Poppins
+      fonts: 
+        - asset: assets/fonts/PoppinsMedium.ttf
+          weight: 500
+        - asset: assets/fonts/PoppinsSemiBold.ttf
+          weight: 600
+    - family: Ponnala
+      fonts: 
+        - asset: assets/fonts/Ponnala.ttf
+          weight: 400
+    - family: SF Pro
+      fonts: 
+        - asset: assets/fonts/SFProRegular.ttf
+          weight: 400
+        - asset: assets/fonts/SFProLight.ttf
+          weight: 300
